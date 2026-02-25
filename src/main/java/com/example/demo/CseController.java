@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CseController {
 	@GetMapping("/home")
 	public String disk() {
-		return "Welcome to CSE jenkins";
+		return "Welcome to CSE jenkins from Aditya University";
 	}
 	@GetMapping("/cse")
 	public String disk2() {
